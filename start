@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+export PATH="/opt/wine-osu/bin:$PATH" #Use custom WINE version to run osu!
+#export PATH="$HOME/.wineosu/osuwine/bin:$PATH" #Use custom WINE version to run osu!
+export WINEARCH=win32
+export WINEPREFIX="$HOME/Games/osu"
+#export WINEFSYNC=1
+
+export vblank_mode=0 # to disable vsync for intel/amd gpu users
+
+#export STAGING_AUDIO_PERIOD=10000
+#wine /home/myuu/Games/osu/rpcbridge.sh
+#start osu!
+wine osu\!.exe

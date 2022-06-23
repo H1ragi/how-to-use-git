@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Comment=A freeware rhythm game where player uses mouse and keyboard input to click on circles to the rhythm in main gameplay mode.
+Path=/home/myuu/Games/osu/osu!
+Icon=/home/myuu/Games/osu/osu!/.icon/icon.png
+Exec=/home/myuu/Games/osu/osu!/start
+GenericName=osu!
+Name=osu!
+StartupNotify=true
